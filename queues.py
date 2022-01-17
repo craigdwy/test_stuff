@@ -32,7 +32,7 @@ def check_driver_version(ssh_session):
 
 
 class Worker(threading.Thread):
-    """Threaded ssh"""
+    """Threaded ssh worker"""
 
     def __init__(self, n_queue, machine_stats, user, password, process_func):
         """
