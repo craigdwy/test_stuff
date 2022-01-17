@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+
 """ Test to import from the dynamic_classes module and see if the required attributes get added"""
 import dynamic_classes
 
