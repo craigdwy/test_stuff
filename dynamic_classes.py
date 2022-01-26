@@ -8,9 +8,9 @@ import sys
 import types
 from yaml import load
 try:
-    from yaml import CLoader as Loader, CDumper as Dumper
+    from yaml import CLoader as Loader
 except ImportError:
-    from yaml import Loader, Dumper
+    from yaml import Loader
 
 _TEMPLATE_DATA = load(open('./data/test.yaml'), Loader=Loader)
 
